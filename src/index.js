@@ -3,7 +3,12 @@ import PropTypes from 'prop-types';
 import './index.css';
 
 class PageBlur extends React.Component {
-  componentWillRecieveNewProps(nprops) {
+  constructor(props) {
+    super(props);
+    this.getClasses = this.getClasses.bind(this);
+    this.getStyle = this.getStyle.bind(this);
+  }
+  componentWillReceiveProps(nprops) {
     if (nprops.active !== this.props.active) {
       if (nprops.active) {
         this.props.onActive();
@@ -68,9 +73,9 @@ PageBlur.defaultProps = {
   imageRepeat: 'repeat',
   imagePosition: 'center',
   className: '',
-  onOffClick: function(){},
-  onActive: function(){},
-  offActive: function(){}
+  onOffClick: () => {},
+  onActive: () => {},
+  offActive: () => {}
 };
 
 const style = {
@@ -82,6 +87,6 @@ const style = {
     right: 0,
     zIndex: 99999
   }
-}
+};
 
 export default PageBlur;

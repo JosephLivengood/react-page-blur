@@ -1,7 +1,7 @@
 {
   "name": "react-page-blur",
-  "version": "0.0.1",
-  "description": "Blur the page to draw focus, presumedly to a popup/modal",
+  "version": "0.1.2",
+  "description": "Blur the page to draw focus, presumedly for showing inactive/loading state or a popup",
   "main": "build/index.js",
   "peerDependencies": {
     "react": "^15.5.4"
@@ -17,7 +17,7 @@
   },
   "author": {
     "name": "Joseph Livengood",
-    "email": "JFLivengood@gmail.com"
+    "email": "JoeyLivengood@gmail.com"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
