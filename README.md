@@ -50,7 +50,7 @@ Advanced:
 | className | `string` | Any additional classes to add | `''`
 | onOffClick | `function` | Called if user clicks the blur but not a child | `() => {}`
 | onActive | `function` | Called once when activated | `() => {}`
-| offActive | `function` | Called once when unactivated | `() => {}`
+| offActive | `function` | Called once when unactivated from active | `() => {}`
 
 *Acceptable string inputs are `'repeat', 'repeat-x', 'repeat-y', 'no-repeat'`
 

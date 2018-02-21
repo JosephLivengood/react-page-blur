@@ -8,6 +8,11 @@ class PageBlur extends React.Component {
     this.getClasses = this.getClasses.bind(this);
     this.getStyle = this.getStyle.bind(this);
   }
+  componentDidMount() {
+    if (this.props.active) {
+      this.props.onActive();
+    }
+  }
   componentWillReceiveProps(nprops) {
     if (nprops.active !== this.props.active) {
       if (nprops.active) {

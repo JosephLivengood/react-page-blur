@@ -1,6 +1,6 @@
 {
   "name": "react-page-blur",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Blur the page to draw focus, presumedly for showing inactive/loading state or a popup",
   "main": "build/index.js",
   "license": "MIT",
