@@ -3,6 +3,7 @@
   "version": "0.1.2",
   "description": "Blur the page to draw focus, presumedly for showing inactive/loading state or a popup",
   "main": "build/index.js",
+  "license": "MIT",
   "peerDependencies": {
     "react": "^15.5.4"
   },
