@@ -1,8 +1,62 @@
-.page-blur {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0,0,0,0.5);
+@keyframes inOut {
+	0% {
+		opacity: .4;
+	}
+
+	50% {
+		opacity: .7;
+	}
+
+	100% {
+		opacity: .4;
+	}
+}
+
+@-moz-keyframes inOut {
+	0% {
+		opacity: .4;
+	}
+
+	50% {
+		opacity: .7;
+	}
+
+	100% {
+		opacity: .4;
+	}
+}
+
+@-webkit-keyframes inOut {
+	0% {
+		opacity: .4;
+	}
+
+	50% {
+		opacity: .7;
+	}
+
+	100% {
+		opacity: .4;
+	}
+}
+
+@-o-keyframes inOut {
+	0% {
+		opacity: .4;
+	}
+
+	50% {
+		opacity: .7;
+	}
+
+	100% {
+		opacity: .4;
+	}
+}
+
+.pulse {
+	animation: inOut linear 1.5s infinite;
+	-webkit-animation: inOut linear 1.5s infinite;
+	-moz-animation: inOut linear 1.5s infinite;
+	-o-animation: inOut linear 1.5s infinite;
 }
