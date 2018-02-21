@@ -1,15 +1,15 @@
-#react-page-blur
+# react-page-blur
 
 Full page blur... every time, every browser, every circumstance.
 
 
-###Install
+### Install
 
 ```
 npm install react-page-blur --save
 ```
 
-###Usage
+### Usage
 Simple:
 ```
 <PageBlur active/>
@@ -37,7 +37,7 @@ Advanced:
 />
 ```
 
-###Props
+### Props
 | Property | Type | Content  | Default Value |
 | --- | --- | --- | --- |
 | active | `boolean` | Is the page blurred | `false`
@@ -56,7 +56,7 @@ Advanced:
 
 ^Acceptable string inputs are explained on: https://developer.mozilla.org/en-US/docs/Web/CSS/background-position
 
-###Development
+### Development
 ```
 npm install
 npm run build
